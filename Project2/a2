@@ -1,0 +1,19 @@
+#!/usr/local/bin/python3
+
+import os
+import sys
+import task1
+import task3
+import task2
+
+if __name__ == '__main__':
+    # print(sys.argv)
+    if sys.argv[1]=='part1':
+        task1.run(sys.argv)
+
+    if sys.argv[1]=='part3':
+        task3.run(sys.argv)
+
+    if sys.argv[1]=='part2':
+        # print('part2')
+        task2.run(sys.argv)
